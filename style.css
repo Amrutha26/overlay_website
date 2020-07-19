@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color:#fff;      
+}
+
+div{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height:100vh;
+    
+   
+}
+
+div:before{
+    background: url('https://source.unsplash.com/user/erondu/1600x900') no-repeat center center/cover;
+    content:'';
+    opacity:0.4;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    height:100%;
+    width:100%;
+    z-index:-1;
+
+}
+
+div>h1{
+    font-size: 4rem;
+    margin:1rem;
+}
